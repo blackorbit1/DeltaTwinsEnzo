@@ -109,9 +109,6 @@ public class PersoRendu {
                         Collections.sort(all_interest_t);
                         // TODO : il y a masse doublons dans all_interest_t (gain en temps ?)
 
-                        //if(u == 6 && v == 7)
-                        //    System.out.println("debug");
-
                         int last_t = MIN_T - 1;
                         for (Integer t : all_interest_t) {
                             if(
